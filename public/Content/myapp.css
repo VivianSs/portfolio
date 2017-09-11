@@ -43,7 +43,7 @@ body {
 }
 
 p, li{
-  font-size: 1.2vmax
+  font-size: 1.3vmax
 }
 
 
@@ -97,7 +97,7 @@ p, li{
 }
 
 .cover-heading{
-    font-size: 7vh;
+    font-size: 7vmax;
     font-weight: bold;
     font-family: 'Oswald', sans-serif
 }
