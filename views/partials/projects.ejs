@@ -1,0 +1,19 @@
+<div class="jumbotron">
+   <h1>Projects</h1><br>
+    <ul class="nav nav-pills nav-justified  nav-filter">
+     <% if(title == "Node.js") { %>
+    <li role="presentation" class="active"><a href="/nodejs">Node.js</a></li>
+    <li role="presentation"><a href="/javaee">JavaEE</a></li>
+    <li role="presentation"><a href="/android">Android</a></li>
+    <% } else if(title == "JavaEE") {%>
+     <li role="presentation"><a href="/nodejs">Node.js</a></li>
+    <li role="presentation"  class="active"><a href="/javaee">JavaEE</a></li>
+    <li role="presentation"><a href="/android">Android</a></li>
+     <% } else if(title == "Android") {%>
+     <li role="presentation"><a href="/nodejs">Node.js</a></li>
+    <li role="presentation"><a href="/javaee">JavaEE</a></li>
+    <li role="presentation"  class="active"><a href="/android">Android</a></li>
+
+    <% }%>  
+</ul>
+</div>
